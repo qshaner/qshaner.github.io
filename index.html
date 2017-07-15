@@ -1,0 +1,150 @@
+<doctype=HTML>
+
+    <head>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="portfolioStyle.css">
+
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+
+        <div class="container-fluid" id="aboutMe"></div>
+
+        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="200">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Quinn Shaner</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Featured</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a role="menuitem" href="#">HTML</a></li>
+                            <li><a role="menuitem" href="#">CSS</a></li>
+                            <li><a role="menuitem" href="#">Java</a></li>
+                            <li><a role="menuitem" href="#">JavaScript</a></li>
+                            <li><a role="menuitem" href="#">Modeling</a></li>
+                            <li><a role="menuitem" href="#">Art</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li id="email"><a href="#">Email</a></li>
+                    <li id="contact"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="MoreAboutMe" class="container-fluid">
+            <h2>Local Gay Returns After Months in Closet</h2>
+        </div>
+
+        <div class="container-fluid" id="Featured">
+            <h3>Featured Works</h3>
+            <p>Don't mind me, I am placeholder text...</p>
+
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#FeaturedWorks">Hide the projects, Kronk!</button>
+
+            <div id="FeaturedWorks" class="collapse in">
+                <div id="img1" class="col-sm-4 col-lg-4 col-md-4">
+                    <img src="Space1.png" width="100%">
+                    <p>Caption</p>
+                </div>
+
+                <div id="img2" class="col-sm-4 col-lg-4 col-md-4">
+                    <img src="Space1.png" width="100%" height="auto">
+                    <p>Caption</p>
+                </div>
+
+                <div id="img3" class="col-sm-4 col-lg-4 col-md-4">
+                    <img src="Space1.png" width="100%" height="auto">
+                    <p>Caption</p>
+                </div>
+
+                <div id="img4" class="col-sm-4 col-lg-4 col-md-4">
+                    <img src="Space1.png" width="100%" height="relative">
+                    <p>Caption</p>
+                </div>
+
+                <div id="img5" class="col-sm-4 col-lg-4 col-md-4">
+                    <img src="Space1.png" width="100%" height="relative">
+                    <p>Caption</p>
+                </div>
+
+                <div id="img6" class="col-sm-4 col-lg-4 col-md-4">
+                    <img src="Space1.png" width="100%" height="relative">
+                    <p>Caption</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="Projects" class="container-fluid">
+            <h3>Projects</h3>
+            <p>Clicking these will lead directly to a hosting page where you can navigate between projects and see how they work</p>
+            <button class="btn btn-primary">HTML</button>
+            <button class="btn btn-primary">CSS</button>
+            <button class="btn btn-primary">Java</button>
+            <button class="btn btn-primary">Javascript</button>
+        </div>
+
+        <div id="MessageForm" class="container-fluid">
+            <h4>Have a question or comment?</h4>
+        </div>
+
+        <div id="ContactInfo" class="container-fluid">
+            <h4>Contact Me:</h4>
+            <a href="#">Github   <i class="fa fa-github" aria-hidden="true"></i>|</a>
+            <a href="#">LinkedIn   <i class="fa fa-linkedin-square" aria-hidden="true"></i>|</a>
+            <a href="#">CodePen.IO   <i class="fa fa-codepen" aria-hidden="true"></i>|</a>
+            <a href="#">Resume   <i class="fa fa-file-text" aria-hidden="true"></i></a>
+        </div>
+
+    </body>
+
+    <footer></footer>
+
+    </doctype>
+
+
+    <!--
+
+Make a dropdown button list for different projects
+
+dropdown-toggle
+class="dropdown-Menu" role="menu"
+class="Caret" *causes the indicator for a dropdown
+
+Alternative: id=Accordian + data-Parent
+
+
+Alternative to buttons for navigation: Breadcrumb class
+
+Alternative: Toggle-able pills
+ul class="nav nav-tabs">
+<li class= "active"><a data-toggle="tab" href ="#home">Name</a></li>
+<div class="tab-content">
+<div id="home class="tap-pane fade in active>
+
+
+Use ScrollSpy plugin to automatically update based on scrolled position
+<body data-spy="scroll" data-target=".navbar" data-offset="50"> (Scrollable area)
+
+Affix Plugin toggles position from static to fixed, used when scrolling to make certain things 'stick'
+
+-->

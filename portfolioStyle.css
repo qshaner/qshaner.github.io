@@ -1,0 +1,44 @@
+.affix {
+    width: 100%;
+    top: 0px;
+}
+
+#aboutMe {
+    height: 200px;
+    background-color: darkseagreen;
+}
+
+#contact {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    float: none;
+}
+
+#Featured {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#MoreAboutMe {}
+
+#Projects {
+    padding-bottom: 50px;
+}
+
+#ContactInfo {
+    padding-bottom: 50px;
+}
+
+#MessageForm {
+    padding-bottom: 50px;
+}
+
+#FeaturedWorks {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
