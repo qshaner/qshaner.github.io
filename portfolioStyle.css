@@ -1,6 +1,24 @@
+body {
+    position: relative;
+}
+
 .affix {
+    top:0;
     width: 100%;
-    top: 0px;
+    z-index: 9999 !important;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.affix~.container-fluid {
+    position: relative;
+    top: 50px;
+}
+
+#hostPageBtn {
+    float: right;
 }
 
 #aboutMe {
@@ -8,37 +26,24 @@
     background-color: darkseagreen;
 }
 
-#contact {
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
-.dropdown-menu {
-    position: absolute;
-    float: none;
-}
-
 #Featured {
     width: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 50px;
+    height: 500px;
 }
 
-#MoreAboutMe {}
+#MoreAboutMe {
+    padding-top: 50px;
+    height: 500px;
+}
 
-#Projects {
-    padding-bottom: 50px;
+#Email {
+    padding-top: 50px;
+    height: 500px;
 }
 
 #ContactInfo {
-    padding-bottom: 50px;
+    padding-top: 50px;
+    height: 500px;
 }
 
-#MessageForm {
-    padding-bottom: 50px;
-}
-
-#FeaturedWorks {
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
