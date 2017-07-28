@@ -26,34 +26,29 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 
-    <div class="container-fluid" id="aboutMe">
+    < <div class="container-fluid" id="aboutMe">
         <h1>Welcome to my Portfolio!</h1>
     </div>
 
     <div id="Navigation">
-        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="100">
+        <nav class="navbar navbar-default" data-spy="affix" data-offset-top="97">
             <div class="container-fluid">
                 <div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
                     <a class="navbar-brand" href="#">Quinn Shaner</a>
                 </div>
 
-                <div>
-                    <ul class="nav navbar-nav">
+                <div id="Navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav" >
                         <li class="active"><a href="#MoreAboutMe">About Me</a></li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects
-                            <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#Projects">HTML</a></li>
-                                <li><a href="#Projects">CSS</a></li>
-                                <li><a href="#Projects">Java</a></li>
-                                <li><a href="#Projects">JavaScript</a></li>
-                                <li><a href="#Projects">Modeling</a></li>
-                                <li><a href="#Projects">Art</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#Email">Email</a></li>
                         <li><a href="#ContactInfo">Contact</a></li>
+                      <li><a href="#Projects">Projects</a></li>  
+                        <li><a href="#Email">Email</a></li>
+
                     </ul>
                 </div>
             </div>
@@ -62,82 +57,309 @@
 
     <div id="content">
 
+			<div class="break"> </div>
+			
         <div id="MoreAboutMe" class="container-fluid">
-            <h2>Local Gay Returns After Months in Closet</h2>
-            <p>Rockets self into the stratosphere</p>
-            <p>Case nullam ea est, eu scripta periculis suscipiantur mei. Mea no dico mucius. His audiam sadipscing ad. Eos an legere adolescens scribentur, vel suavitate consetetur eu. Vis decore partem an.</p>
-        </div>
+            <h2>So You Want to Know About Me, eh?</h2>
+            <p>Hello! I am a current OSU Sophomore, studying computer science and with a minor in either design or criminology. So far, I've focused on software design, but I have a background in art and design.</p>
+					<h3> Web Developer - Software Engineer - Graphic Artist</h3>
+			</div>
 
-        <div id="Projects" class="container-fluid">
-            <h3>Projects</h3>
-            <p>Don't mind me, I am placeholder text...</p>
-            <p>To see more or all of the projects at once, click the 'See More' button! This will lead you to a hosting page where you can click around to your heart's content</p>
-
-            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#FeaturedWorks">Hide the projects, Kronk!</button>
-            <button type="button" class="btn">HTML</button>
-            <button type="button" class="btn">CSS</button>
-            <button type="button" class="btn">Java</button>
-            <button type="button" class="btn">Javascript</button>
-            <button type="button" class="btn">3D-Modeling</button>
-            <button type="button" class="btn">Art</button>
-            <button type="button" class="btn" id="hostPageBtn">See more?</button>
-
-            <div id="FeaturedWorks" class="collapse in">
-                <div id="img1" class="col-sm-4 col-lg-4 col-md-4">
-                    <img src="Space1.png" class="img-thumbnail">
-                    <p>Caption</p>
-                </div>
-
-                <div id="img2" class="col-sm-4 col-lg-4 col-md-4">
-                    <img src="Space1.png" class="img-thumbnail">
-                    <p>Caption</p>
-                </div>
-
-                <div id="img3" class="col-sm-4 col-lg-4 col-md-4">
-                    <img src="Space1.png" class="img-thumbnail">
-                    <p>Caption</p>
-                </div>
-
-                <div id="img4" class="col-sm-4 col-lg-4 col-md-4">
-                    <img src="Space1.png" class="img-thumbnail">
-                    <p>Caption</p>
-                </div>
-
-                <div id="img5" class="col-sm-4 col-lg-4 col-md-4">
-                    <img src="Space1.png" class="img-thumbnail">
-                    <p>Caption</p>
-                </div>
-
-                <div id="img6" class="col-sm-4 col-lg-4 col-md-4">
-                    <img src="Space1.png" class="img-thumbnail">
-                    <p>Caption</p>
-                </div>
+            <div id="ContactInfo" class="container-fluid">
+                <a href="https://github.com/qshaner"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/quinnshaner/"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+                <a href="https://codepen.io/qshaner/#"><i class="fa fa-codepen fa-3x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-file-text fa-3x" aria-hidden="true"></i></a>
             </div>
-        </div>
+			
 
-       <div class="container-fluid" id="Email">
-            <h4>Have a question or comment?</h4>
-            <form action="http://formspree.io/quinn.shaner@gmail.com" method="post">
-                <label>Email address</label>
-                <input type="email" name="_replyto" class="form-control" placeholder="Enter Email">
-                <label>Message</label>
-                <textarea class="form-control" rows="8" name="body"></textarea>
+            <div id="Projects" class="container-fluid">
+                <h3>Projects</h3>
+                <!-- <p>Don't mind me, I am placeholder text...</p>
+                <p>To see more or all of the projects at once, click the 'See More' button! This will lead you to a hosting page where you can click around to your heart's content</p> -->
 
-                <input type="submit" value="Send">
-                <input type="reset" value="Cancel">
-            </form>
-        </div>
+							<div data-toggle="collapse" data-target="#FeaturedWorks">
+                <button type="button" class="btn" data-toggle="collapse" data-target="#FeaturedWorks" id="featuredHide">Show/Hide Projects</button>
+							</div>
+								<div id="nav-tabs">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#HTML" data-toggle="tab">HTML</a></li>
+                    <li><a href="#CSS" data-toggle="tab">CSS</a></li>
+                    <li><a href="#JAVA" data-toggle="tab">Java</a></li>
+                    <li><a href="#JAVASCRIPT" data-toggle="tab">Javascript</a></li>
+                    <li><a href="#MODELING" data-toggle="tab">Modeling</a></li>
+                    <li><a href="#ART" data-toggle="tab">Art</a></li>
+                </ul>
+							</div>
 
-        <div id="ContactInfo" class="container-fluid">
-            <h4>Contact Me:</h4>
-            <div id="ContactLinks">
-                <a href="#">Github   <i class="fa fa-github" aria-hidden="true"></i>|</a>
-                <a href="#">LinkedIn   <i class="fa fa-linkedin-square" aria-hidden="true"></i>|</a>
-                <a href="#">CodePen.IO   <i class="fa fa-codepen" aria-hidden="true"></i>|</a>
-                <a href="#">Resume   <i class="fa fa-file-text" aria-hidden="true"></i></a>
-            </div>
+              <!--  <button type="button" class="btn" id="hostPageBtn">See more?</button> -->
 
-        </div>
+
+                <div id="FeaturedWorks" class="collapse in tab-content">
+
+
+                    <div id="HTML" class="tab-pane fade in active">
+                        <div class="col-md-4 col-lg-4 col-sm-4">
+                            <div class="thumbnail">
+                                <a href="http://vignette1.wikia.nocookie.net/steamtradingcards/images/1/16/Sid_Meiers_Civilization_Beyond_Earth_Background_Blue_Space.jpg/revision/latest?cb=20141025064748">
+                                    <img src="http://vignette1.wikia.nocookie.net/steamtradingcards/images/1/16/Sid_Meiers_Civilization_Beyond_Earth_Background_Blue_Space.jpg/revision/latest?cb=20141025064748" class="img-thumbnail img-responsive">
+                                    <div class="caption">
+                                        <p>HTML</p>
+                                    </div> 
+                            </div>
+                            </a>
+                        </div>
+                        <!-- Thumbnail end-->
+
+                        <div class="col-md-4 col-lg-4 col-sm-4">
+                            <div class="thumbnail">
+                                <a href="http://vignette1.wikia.nocookie.net/steamtradingcards/images/1/16/Sid_Meiers_Civilization_Beyond_Earth_Background_Blue_Space.jpg/revision/latest?cb=20141025064748">
+                                    <img src="http://vignette1.wikia.nocookie.net/steamtradingcards/images/1/16/Sid_Meiers_Civilization_Beyond_Earth_Background_Blue_Space.jpg/revision/latest?cb=20141025064748" class="img-responsive img-thumbnail">
+                                    <div class="caption">
+                                        <p>HTML</p>
+                                    </div>
+                            </div>
+                            </a>
+                        </div>
+                        <!-- Thumbnail end-->
+
+                        <div class="col-md-4 col-lg-4 col-sm-4">
+                            <div class="thumbnail">
+                                <a href="http://vignette1.wikia.nocookie.net/steamtradingcards/images/1/16/Sid_Meiers_Civilization_Beyond_Earth_Background_Blue_Space.jpg/revision/latest?cb=20141025064748">
+                                    <img src="http://vignette1.wikia.nocookie.net/steamtradingcards/images/1/16/Sid_Meiers_Civilization_Beyond_Earth_Background_Blue_Space.jpg/revision/latest?cb=20141025064748" class="img-responsive img-thumbnail">
+                                    <div class="caption">
+                                        <p>HTML</p>
+                                    </div>
+                            </div>
+                            </a>
+                        </div>
+                        <!-- Thumbnail end-->
+
+                    </div>
+                    <!-- HTML Section end -->
+
+                    <div id="CSS" class="tab-pane fade">
+                        <div class="col-md-4 col-lg-4 col-sm-4">
+                            <div class="thumbnail">
+                                <a href="https://seeklogo.com/images/C/circular-shape-design-logo-8C1FC3EA75-seeklogo.com.gif">
+                                    <img src="https://seeklogo.com/images/C/circular-shape-design-logo-8C1FC3EA75-seeklogo.com.gif">
+                                    <div class="caption">
+                                        <p>CSS</p>
+                                    </div>
+                            </div>
+                            </a>
+                        </div>
+                        <!-- Thumbnail end-->
+
+                        <div class="col-md-4 col-lg-4 col-sm-4">
+                            <div class="thumbnail">
+                                <a href="https://seeklogo.com/images/C/circular-shape-design-logo-8C1FC3EA75-seeklogo.com.gif">
+                                    <img src="https://seeklogo.com/images/C/circular-shape-design-logo-8C1FC3EA75-seeklogo.com.gif">
+                                    <div class="caption">
+                                        <p>CSS</p>
+                                    </div>
+                            </div>
+                            </a>
+                        </div>
+                        <!-- Thumbnail end-->
+
+                        <div class="col-md-4 col-lg-4 col-sm-4">
+                            <div class="thumbnail">
+                                <a href="https://seeklogo.com/images/C/circular-shape-design-logo-8C1FC3EA75-seeklogo.com.gif">
+                                    <img src="https://seeklogo.com/images/C/circular-shape-design-logo-8C1FC3EA75-seeklogo.com.gif">
+                                    <div class="caption">
+                                        <p>CSS</p>
+                                    </div>
+                            </div>
+                            </a>
+                        </div>
+                        <!-- Thumbnail end-->
+
+                    </div>
+                    <!-- End of CSS Section -->
+
+
+                    <div id="JAVA" class="tab-pane fade">
+                        <div class="col-md-4 col-lg-4 col-sm-4">
+                            <div class="thumbnail">
+                                <a href="https://emilyandrassy.files.wordpress.com/2012/02/waves.jpg">
+                                    <img src="https://emilyandrassy.files.wordpress.com/2012/02/waves.jpg">
+                                    <div class="caption">
+                                        <p>JAVA</p>
+                                    </div>
+                            </div>
+                            </a>
+                        </div>
+                        <!-- Thumbnail end-->
+
+                        <div class="col-md-4 col-lg-4 col-sm-4">
+                            <div class="thumbnail">
+                                <a href="https://emilyandrassy.files.wordpress.com/2012/02/waves.jpg">
+                                    <img src="https://emilyandrassy.files.wordpress.com/2012/02/waves.jpg" class="img-responsive img-thumbnail">
+                                    <div class="caption">
+                                        <p>JAVA</p>
+                                    </div>
+                            </div>
+                            </a>
+                        </div>
+                        <!-- Thumbnail end-->
+
+                        <div class="col-md-4 col-lg-4 col-sm-4">
+                            <div class="thumbnail">
+                                <a href="https://emilyandrassy.files.wordpress.com/2012/02/waves.jpg">
+                                    <img src="https://emilyandrassy.files.wordpress.com/2012/02/waves.jpg" class="img-responsive img-thumbnail">
+                                    <div class="caption">
+                                        <p>JAVA</p>
+                                    </div>
+                            </div>
+                            </a>
+                        </div>
+                        <!-- Thumbnail end-->
+
+                    </div>
+                    <!-- JAVA Section End -->
+
+                    <div id="JAVASCRIPT" class="tab-pane fade">
+                        <div class="col-md-4 col-lg-4 col-sm-4">
+                            <div class="thumbnail">
+                                <a href="https://s-media-cache-ak0.pinimg.com/originals/05/d5/09/05d509580244750c2ee93a5f49903271.jpg">
+                                    <img src="https://s-media-cache-ak0.pinimg.com/originals/05/d5/09/05d509580244750c2ee93a5f49903271.jpg" class="img-responsive img-thumbnail">
+                                    <div class="caption">
+                                        <p>JAVASCRIPT</p>
+                                    </div>
+                            </div>
+                            </a>
+                        </div>
+                        <!-- Thumbnail end-->
+
+                        <div class="col-md-4 col-lg-4 col-sm-4">
+                            <div class="thumbnail">
+                                <a href="https://s-media-cache-ak0.pinimg.com/originals/05/d5/09/05d509580244750c2ee93a5f49903271.jpg">
+                                    <img src="https://s-media-cache-ak0.pinimg.com/originals/05/d5/09/05d509580244750c2ee93a5f49903271.jpg" class="img-responsive img-thumbnail">
+                                    <div class="caption">
+                                        <p>JAVASCRIPT</p>
+                                    </div>
+                            </div>
+                            </a>
+                        </div>
+                        <!-- Thumbnail end-->
+
+                        <div class="col-md-4 col-lg-4 col-sm-4">
+                            <div class="thumbnail">
+                                <a href="https://s-media-cache-ak0.pinimg.com/originals/05/d5/09/05d509580244750c2ee93a5f49903271.jpg">
+                                    <img src="https://s-media-cache-ak0.pinimg.com/originals/05/d5/09/05d509580244750c2ee93a5f49903271.jpg" class="img-responsive img-thumbnail">
+                                    <div class="caption">
+                                        <p>JAVASCRIPT</p>
+                                    </div>
+                            </div>
+                            </a>
+                        </div>
+                        <!-- Thumbnail end-->
+
+                    </div>
+                    <!-- Javascript section end -->
+
+									   <div id="MODELING" class="tab-pane fade">
+                        <div class="col-md-4 col-lg-4 col-sm-4">
+                            <div class="thumbnail">
+                                <a href="https://damassets.autodesk.net/content/dam/autodesk/www/solutions/3d-modeling-software/polygon-example-600-300.jpg">
+                                    <img src="https://damassets.autodesk.net/content/dam/autodesk/www/solutions/3d-modeling-software/polygon-example-600-300.jpg" class="img-responsive img-thumbnail">
+                                    <div class="caption">
+                                        <p>MODELING</p>
+                                    </div>
+                            </div>
+                            </a>
+                        </div>
+                        <!-- Thumbnail end-->
+
+                        <div class="col-md-4 col-lg-4 col-sm-4">
+                            <div class="thumbnail">
+                                <a href="https://damassets.autodesk.net/content/dam/autodesk/www/solutions/3d-modeling-software/polygon-example-600-300.jpg">
+                                    <img src="https://damassets.autodesk.net/content/dam/autodesk/www/solutions/3d-modeling-software/polygon-example-600-300.jpg" class="img-responsive img-thumbnail">
+                                    <div class="caption">
+                                        <p>MODELING</p>
+                                    </div>
+                            </div>
+                            </a>
+                        </div>
+                        <!-- Thumbnail end-->
+
+                        <div class="col-md-4 col-lg-4 col-sm-4">
+                            <div class="thumbnail">
+                                <a href="https://damassets.autodesk.net/content/dam/autodesk/www/solutions/3d-modeling-software/polygon-example-600-300.jpg">
+                                    <img src="https://damassets.autodesk.net/content/dam/autodesk/www/solutions/3d-modeling-software/polygon-example-600-300.jpg" class="img-responsive img-thumbnail">
+                                    <div class="caption">
+                                        <p>MODELING</p>
+                                    </div>
+                            </div>
+                            </a>
+                        </div>
+                        <!-- Thumbnail end-->
+
+                    </div>
+                    <!-- Modeling Section End -->
+									
+									
+                    <div id="ART" class="tab-pane fade">
+                        <div class="col-md-4 col-lg-4 col-sm-4">
+                            <div class="thumbnail">
+                                <a href="http://www.clker.com/cliparts/d/3/3/8/12992040591895043297purple-and-orange-paint-splatter-vector.jpg">
+                                    <img src="http://www.clker.com/cliparts/d/3/3/8/12992040591895043297purple-and-orange-paint-splatter-vector.jpg" class="img-responsive img-thumbnail">
+                                    <div class="caption">
+                                        <p>ART</p>
+                                    </div>
+                            </div>
+                            </a>
+                        </div>
+                        <!-- Thumbnail end-->
+
+                        <div class="col-md-4 col-lg-4 col-sm-4">
+                            <div class="thumbnail">
+                                <a href="http://www.clker.com/cliparts/d/3/3/8/12992040591895043297purple-and-orange-paint-splatter-vector.jpg">
+                                    <img src="http://www.clker.com/cliparts/d/3/3/8/12992040591895043297purple-and-orange-paint-splatter-vector.jpg" class="img-responsive img-thumbnail">
+                                    <div class="caption">
+                                        <p>ART</p>
+                                    </div>
+                            </div>
+                            </a>
+                        </div>
+                        <!-- Thumbnail end-->
+
+                        <div class="col-md-4 col-lg-4 col-sm-4">
+                            <div class="thumbnail">
+                                <a href="http://www.clker.com/cliparts/d/3/3/8/12992040591895043297purple-and-orange-paint-splatter-vector.jpg">
+                                    <img src="http://www.clker.com/cliparts/d/3/3/8/12992040591895043297purple-and-orange-paint-splatter-vector.jpg" class="img-responsive img-thumbnail">
+                                    <div class="caption">
+                                        <p>ART</p>
+                                    </div>
+                            </div>
+                            </a>
+                        </div>
+                        <!-- Thumbnail end-->
+
+                    </div>
+                    <!-- Art Section End -->
+
+                </div>
+                <!-- End of featuredWorks subsection-->
+					</div>
+			<div class="break"><i class="fa fa-rocket fa-3x" aria-hidden="true"></i>
+ <i class="fa fa-rocket fa-4x" aria-hidden="true"></i>
+	 <i class="fa fa-rocket fa-3x" aria-hidden="true"></i>
+			</div>
+							
+                <div class="container-fluid" id="Email">
+                    <h4>Have a question or comment?</h4>
+                    <form action="http://formspree.io/quinn.shaner@gmail.com" method="post">
+                        <label>Email address</label>
+                        <input type="email" name="_replyto" class="form-control" placeholder="Enter Email">
+                        <label>Message</label>
+                        <textarea class="form-control" rows="8" name="body" placeholder="I promise I don't bite! Want some information about space? Need someone to play chess with? What about needing help to plan your perfect vacation?"></textarea>
+
+                        <input class="btn btn-info" type="submit" value="Send">
+                        <input class="btn btn-warning" type="reset" value="Cancel">
+                    </form>
+			</div>
 </body>
 
 </html>
