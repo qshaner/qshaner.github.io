@@ -1,15 +1,18 @@
 body {
     position: relative;
+	
 }
 
 .affix {
-    top:0;
+    top: 0;
     width: 100%;
     z-index: 9999 !important;
 }
 
 .navbar {
     margin-bottom: 0px;
+	box-shadow: 10px 10px 20px
+		#7176EB;;
 }
 
 .affix~.container-fluid {
@@ -23,27 +26,142 @@ body {
 
 #aboutMe {
     height: 100px;
-    background-color: darkseagreen;
+    background-color: #A6DB86;
+	text-align: center;
 }
 
-#Featured {
+#Projects {
     width: 100%;
     padding-top: 50px;
-    height: 500px;
+	padding-bottom: 50px;
+   
+}
+#FeaturedWorks {
+	padding-top: 50px;
 }
 
 #MoreAboutMe {
-    padding-top: 50px;
-    height: 500px;
+    height: 300px;
+}
+#MoreAboutMe >p {
+	width: 80%;
+	text-align: center;
+	position: relative;
 }
 
 #Email {
-    padding-top: 50px;
     height: 500px;
+	width: 500px;
 }
 
-#ContactInfo {
+#ContactInfo  {
+	position: relative;
     padding-top: 50px;
-    height: 500px;
+    padding-bottom: 50px;
+	text-align: center;
 }
 
+.break {
+position: relative;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	color: #5F55C2;
+}
+
+#ContactInfo > a {
+	padding-right: 20px;
+	color: #5F55C2;
+}
+
+
+.thumbnail{
+	width: 100%;
+		height: 100%;
+}
+
+.tab-pane{
+	background-color: #7176EB;
+}
+
+a:link {
+	color: #5F55C2 ;
+}
+
+a:active {
+	color: #A6DB86 ;
+}
+
+#MoreAboutMe {
+background-color:  #9CC2BD;
+	z-index:1;
+	margin-top: -20px;
+	box-shadow: 10px 10px 10px
+		#7176EB;
+}
+#Email {
+	background-color:   #A6DB86;;
+position: relative;
+	padding-right: 25%;
+		padding-left: 25%;
+width: 100%;
+	padding-top: 2%;
+}
+#Projects {
+	position: relative;
+background-color: #C9D3EB;
+	box-shadow: 10px 10px 10px
+		#7176EB;
+}
+
+html {
+	background-color: #9CC2BD;
+}
+
+p {
+	font-size: 1.2em;
+text-align: center;
+	font-family: 'Andada', serif;
+}
+
+#MoreAboutMe >p {
+	width: 500px;
+	text-align: center;
+	position: relative;
+	left: 38%;
+}
+
+h1, h2,h3,h4,h5,h6{
+	font-family: 'Rakkas', cursive !important;
+}
+
+.btn {
+	background: #9CC2BD;
+	color: #52758F;
+}
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+
+.navbar-default {
+	background-color: #4B478B !important;
+	border-color: #24096B !important;
+	font-family: 'Merienda', cursive;
+}
+.nav.navbar-nav li a{
+	color: #24096B !important;
+}
+.nav.navbar-nav > li:active> a {
+	background-color: red !important;
+}
+.navbar-brand{
+	color: #C9D3EB !important;
+}
+.thumbnail {
+	background-image: none !important;
+	background-color: #BEC4D8 !important;
+	border-color: #BEC4D8 !important;
+}
