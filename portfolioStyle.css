@@ -133,13 +133,6 @@ text-align: center;
 
 h1, h2,h3,h4,h5,h6{
 	font-family: 'Rakkas', cursive !important;
-}
-
-.btn {
-	background: #9CC2BD;
-	color: #52758F;
-}
-h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 	padding-bottom: 20px;
 	padding-top: 20px;
